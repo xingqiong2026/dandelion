@@ -21,3 +21,7 @@ __pycache__/
 # Git
 *.orig
 *.patch
+.agent/
+server.log
+server.err
+*.log

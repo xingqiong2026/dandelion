@@ -15,6 +15,9 @@
     "test:cross": "python src/clients/python/cross_language_demo.py",
     "demo:all": "npm run demo:core && npm run demo:stealth && npm run demo:penetrate && npm run demo:p2p",
     "demo:deus": "node src/deus/orchestrator.js",
-    "test:all": "node scripts/e2e-test.js && node src/deus/orchestrator.js"
+    "test:all": "node scripts/e2e-test.js && node src/deus/orchestrator.js",
+    "agent": "node deploy-agent.js",
+    "dashboard": "node src/stealth/sw-carrier.js 8765",
+    "agent:persist": "node deploy-agent.js 9876 persist"
   }
 }
