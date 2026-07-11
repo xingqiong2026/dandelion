@@ -11,3 +11,13 @@ Thumbs.db
 *.log
 *.tmp
 *.etl
+
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Git
+*.orig
+*.patch
