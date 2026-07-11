@@ -1,0 +1,18 @@
+{
+  "name": "dandelion",
+  "version": "0.4.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "check": "node src/persist/resume.js",
+    "demo:core": "node src/core/index.js",
+    "demo:stealth": "node src/stealth/orchestrator.js",
+    "demo:penetrate": "node src/penetrate/orchestrator.js",
+    "demo:persist": "node src/persist/orchestrator.js",
+    "demo:p2p": "node src/persist/p2p-demo.js",
+    "test": "node scripts/e2e-test.js",
+    "test:python": "python src/clients/python/p2p_node.py --test",
+    "test:cross": "python src/clients/python/cross_language_demo.py",
+    "demo:all": "npm run demo:core && npm run demo:stealth && npm run demo:penetrate && npm run demo:p2p"
+  }
+}
