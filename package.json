@@ -18,6 +18,9 @@
     "test:all": "node scripts/e2e-test.js && node src/deus/orchestrator.js",
     "agent": "node deploy-agent.js",
     "dashboard": "node src/stealth/sw-carrier.js 8765",
-    "agent:persist": "node deploy-agent.js 9876 persist"
+    "agent:persist": "node deploy-agent.js 9876 persist",
+    "spread": "node spread.js",
+    "bridge": "node bridge.js",
+    "bridge:ds": "node bridge.js 7777 DeepSeek-Bridge"
   }
 }
